@@ -6,7 +6,7 @@ Un pequeño CLI para buscar trabajo con Github. Proyecto realizado en el curso d
 
 ## Descripcion
 
-utiliza [la API de Github](https://jobs.github.com/) para buscar empleos.
+Utiliza [la API de Github](https://jobs.github.com/) para buscar empleos.
 Funciona a partir algunos opciones/parametros de busqueda.
 
 La manera de invocar el CLI es:
@@ -31,3 +31,11 @@ Y `<SKILL>` es el tipo de skill del que queremos encontrar trabajos.
 Para buscar trabajos de `Java` en Tokyo, usariamos:
 
 `jobs-search --location tokyo java` 
+
+## Tecnologías involucradas
+
+En el proyecto se utilizaron las siguientes tecnologías:
+* [openJDK 11](https://openjdk.java.net/projects/jdk/11/)
+* [jcommander](https://mvnrepository.com/artifact/com.beust/jcommander)
+* [feign-core](https://mvnrepository.com/artifact/io.github.openfeign/feign-core)
+* [feign-gson](https://mvnrepository.com/artifact/io.github.openfeign/feign-gson)
