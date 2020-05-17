@@ -1,6 +1,6 @@
 # Jobs Search Reporter
 
-Un pequeño CLI para buscar trabajo con Github.
+Un pequeño CLI para buscar trabajo con Github. Proyecto realizado en el curso de Programación Funcional en Java de Platzi.
 
 ---
 
